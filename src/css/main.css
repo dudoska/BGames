@@ -30,18 +30,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--top-app-color);
-
-    /*height: 64px;*/
-    /*display: flex;*/
-    /*padding: 0 16px;*/
-    /*overflow: hidden;*/
-    /*border-radius: 7px;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*position: relative;*/
-    /*box-shadow: 0 2px 3px var(--box-shadow-color);*/
-    /*background-color: var(--top-app-color);*/
-    /*color: var(--top-app-text-color);*/
 }
 
 .top-app .left {
