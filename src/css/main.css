@@ -1,0 +1,61 @@
+/* Белая тема */
+[data-theme="light"]{
+    --background-color: #fff;
+    --top-app-color: #fff;
+}
+
+/* Темная тема */
+[data-theme="dark"]{
+    --background-color: #0b1019;
+    --top-app-color: #005aa2;
+    --footer-color: #003052;
+}
+
+body {
+    margin: 0;
+    padding-top: 58px;
+    background: var(--background-color);
+}
+
+.top-app {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    z-index: 1000;
+    position: fixed;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--top-app-color);
+
+    /*height: 64px;*/
+    /*display: flex;*/
+    /*padding: 0 16px;*/
+    /*overflow: hidden;*/
+    /*border-radius: 7px;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*position: relative;*/
+    /*box-shadow: 0 2px 3px var(--box-shadow-color);*/
+    /*background-color: var(--top-app-color);*/
+    /*color: var(--top-app-text-color);*/
+}
+
+.top-app .left {
+    gap: 16px;
+    left: 16px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    background-color: var(--footer-color);
+}
